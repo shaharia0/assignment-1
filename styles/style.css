@@ -37,7 +37,7 @@
  border-radius: 5px;
  font-weight: bold;
 }
-/* body 1 section- my faliures section */
+/* body 1 section- my faliures section styles */
 .achievement-section{
   display: flex;
   margin-top: 100px ;
@@ -63,4 +63,21 @@ margin-bottom: 25px;
 .failures-description{
   margin-bottom: 20px;
   color: #444343;
+}
+/* my skills styles */
+.skill-heading{
+  margin-top: 130px;
+  text-align: center;
+}
+.skill-box{
+  display: flex;
+  gap: 10px;
+  margin-left: 230px;
+}
+.skill-title{
+  padding: 50px;
+}
+.skill-title-heading{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
