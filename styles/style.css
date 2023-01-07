@@ -81,3 +81,100 @@ margin-bottom: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/* image gradient styles */
+.image-gradient{
+  background-image: url(../images/gradient1.png);
+  /* width: 100%;
+  height: 100vh; */
+  /* background-position: center; */
+  background-size: cover;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 30px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  /* position: absolute; */
+}
+.gradient-text-box{
+ margin-top: 130px;
+}
+.gradient-text-box .gradient-title{
+  color: #ffffff;
+}
+.gradient-text-box .btn-1{
+ border: none;
+ color: #005FAC;
+ padding: 20px 25px;
+ border-radius: 5px;
+ font-weight: bold;
+}
+.button{
+  margin-top: 10px;
+}
+
+/* footer section */
+.footer{
+  background: #151414;
+  color: #F8F8F8;
+  height: 300px;
+  position: relative
+}
+.footer .footer-bottom{
+  position: absolute;
+  background:  #343a40;
+  height: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  bottom: 0px;
+  left: 0px;
+  width: 98.5%;
+}
+.footer .footer-content{
+  height: 258px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.footer .footer-content .footer-section{
+  flex: 1;
+  /* border: 1px solid #ffffff; */
+}
+
+.contact-title{
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.contact-details{
+  margin-left: 50px;
+  font-size: 15px;
+}
+.contact-icon{
+  margin-left: 50px;
+}
+.subscribe-header{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.email-class{
+  margin-top: 20px ;
+  margin-left: 50px;
+  background: transparent;
+  width: 30%;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.button-class{
+  margin-top: 20px ;
+  margin-left: 50px;
+  
+}
+.button-class .button-text{
+  padding: 10px;
+  color: #ffffff;
+  background-color: #005FAC;
+  border-style: none;
+  border-radius: 3px;
+}
